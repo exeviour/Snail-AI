@@ -11,7 +11,7 @@ const deleteChatButton = document.querySelector(
 let userMessage = null;
 let isResponseGenerating = false;
 // API configuration
-const API_KEY = "AQ.Ab8RN6Kf6XhbnyJur1tFkKupwUnKbQTvgY-oLOlYSl0JiDDT9A"; // Your API key here
+const API_KEY = "AQ.Ab8RN6Lix8iwZcFgv7yQoObSbXSUT06Chm6WbmrYNhf4YjEJqw"; // Your API key here
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${API_KEY}`;
 // Load theme and chat data from local storage on page load
 const loadDataFromLocalstorage = () => {
